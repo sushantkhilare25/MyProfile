@@ -6,35 +6,65 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <linl @import
+    url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Sofia&display=swap');/>
+
     <style>
-      header {
-        color: chartreuse;
-        background-color: blue;
+      body {
+        background-image: url(https://st2.depositphotos.com/4046139/7321/i/600/depositphotos_73215441-stock-photo-green-nature-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
       }
+
+      header span i {
+        color: rgb(242, 14, 52);
+        background-color: gray;
+      }
+      .puppy{
+        color: chartreuse;
+        margin-left: 10px;
+      }
+
       .fontstyle {
         margin-right: 30px;
+        text-shadow: 5px 4px 8px black;
+        padding-right: 20px;
       }
       .nav {
         margin-right: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        font-family: "Sofia", cursive;
+        text-shadow: 5px 4px 8px black;
       }
-      .follo{
+      .follo {
         margin-right: 10px;
+        
+        text-shadow: 5px 4px 8px black;
+      }
+      #para {
+        border: 2px solid gray;
+        background-color: gray;
+      }
+      marquee {
+        background-color: rgb(142, 117, 117);
+        border: 2px solid black;
       }
     </style>
   </head>
   <body>
-    <header>
+    <header id="para">
       <span class="fontstyle">
-        <i class="fa fa-user" aria-hidden="true">Sushant Khilare</i>
+        <i class="fa fa-user-circle" aria-hidden="true"></i> <span class="puppy">Sushant Khilare</span> 
       </span>
       <span class="fontstyle">
-        <i class="fa fa-phone-square" aria-hidden="true"> +919326109878</i>
+        <i class="fa fa-phone-square" aria-hidden="true"> </i> <span class="puppy">+919326109878</span>
       </span>
       <span class="fontstyle">
-        <i class="fa fa-envelope" aria-hidden="true"> sskhilare25@gmail.com</i>
+        <i class="fa fa-envelope" aria-hidden="true"> </i> <span class="puppy">sskhilare25@gmail.com</span>
       </span>
     </header>
 
+    <hr />
     <hr />
     <nav>
       <span class="nav"><a href="home.html" target="khilare"> Home </a> </span>
@@ -53,26 +83,38 @@
       <span class="nav"
         ><a href="contactUs.html" target="khilare"> contactUs</a></span
       >
+      <hr />
+
+      <iframe width="800px" height="500px" name="khilare" src="home.html">
+      </iframe>
 
       <br />
-      <br />
-      <iframe width="800px" height="500px" name="khilare" src="home.html">
-      </iframe
-      ><br />
     </nav>
+
+    <marquee
+      direction="left"
+      width="600px"
+      height="20px"
+      behavior="sliding"
+      bgcolour="brown"
+    >
+      Wellcome to Goa!!!</marquee
+    >
     <footer>
       <b> Follow Me:</b>
-      <span class="follo"> <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-      <span class="follo"> <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a> </span>
-      <span class="follo"> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
-      <span class="follo"> <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></span>
-      
-      
-      
-      
-      
-     
-      
+      <span class="follo">
+        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+      ></span>
+      <span class="follo">
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </span>
+      <span class="follo">
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a
+      ></span>
+      <span class="follo">
+        <a href="#"
+          ><i class="fa fa-facebook-official" aria-hidden="true"></i></a
+      ></span>
     </footer>
   </body>
 </html>
